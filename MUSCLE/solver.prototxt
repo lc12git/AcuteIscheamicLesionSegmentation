@@ -1,0 +1,13 @@
+net: "/vol/biomedic/users/lc12/Stroke/CNN/caffe/DWISeg/MUSCLE/net.prototxt"
+test_iter: 1000
+test_interval: 1000
+test_compute_loss: true
+base_lr: 0.01
+lr_policy: "fixed"
+weight_decay: 0
+display: 1000
+max_iter: 30000
+snapshot: 1000
+snapshot_prefix: "/vol/biomedic/users/lc12/Stroke/CNN/caffe/DWISeg/MUSCLE/snapshot/muscle"
+momentum: 0.9
+solver_mode: GPU

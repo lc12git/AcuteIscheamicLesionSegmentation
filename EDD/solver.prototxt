@@ -1,0 +1,16 @@
+net: "/vol/biomedic/users/lc12/Stroke/CNN/caffe/DWISeg/EDD/net.prototxt"
+test_iter: 500
+test_interval: 500
+test_compute_loss: true
+base_lr: 0.05
+lr_policy: "fixed"
+weight_decay: 0
+stepsize: 5000
+display: 500
+max_iter: 40000
+snapshot: 1000
+snapshot_prefix: "/vol/biomedic/users/lc12/Stroke/CNN/caffe/DWISeg/EDD/snapshot/EDD"
+momentum: 0.9
+solver_mode: GPU
+type: "AdaDelta"
+delta: 1e-6
