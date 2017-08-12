@@ -4,7 +4,7 @@ The EDD and MUSCLE folders contain network configurations.
 
 The networks are based on our customised version of caffe.
 
-Please cite our paper if you find it helpful in your research:
+Please cite our paper if it helps your research:
 
     @article{chen2017fully,
     title={Fully Automatic Acute Ischemic Lesion Segmentation in DWI Using Convolutional Neural Networks},
