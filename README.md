@@ -10,6 +10,8 @@ Please cite our paper if it helps your research:
     title={Fully Automatic Acute Ischemic Lesion Segmentation in DWI Using Convolutional Neural Networks},
     author={Chen, Liang and Bentley, Paul and Rueckert, Daniel},
     journal={NeuroImage: Clinical},
+    volume={15},
+    pages={633--643},
     year={2017},
     publisher={Elsevier}
     }
